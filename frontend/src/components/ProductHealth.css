@@ -1,0 +1,90 @@
+.product-health {
+  padding-bottom: 20px;
+}
+
+.health-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.health-item {
+  padding: 14px;
+  background-color: var(--color-bg-gray);
+  border-radius: 6px;
+  border-left: 3px solid #ddd;
+}
+
+.health-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.health-name {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.health-category {
+  font-size: 11px;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.health-product {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.health-complaints {
+  font-size: 12px;
+  background-color: var(--color-border);
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+
+.health-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.health-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.health-bar-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+  border-radius: 4px;
+}
+
+.health-score {
+  font-size: 14px;
+  font-weight: 700;
+  min-width: 35px;
+  text-align: right;
+}
+
+.health-label {
+  font-size: 11px;
+  color: var(--color-text-light);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
